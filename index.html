@@ -1,734 +1,1454 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-BR">
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>MJ Store Imports</title>
-  <meta name="description" content="Página Institucional MJ Store Imports">
-  <meta name="keywords" content="">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MJStore Imports | iPhone, iPad, MacBook e Xiaomi importados</title>
+<meta name="description" content="A MJStore Imports é especializada em venda de celulares, com foco em produtos Apple (iPhone, iPad, MacBook e toda a linha) e aparelhos Xiaomi. Encomendas com atendimento e entrega para todo o Brasil.">
+<meta name="keywords" content="iPhone importado, iPad, MacBook, Xiaomi, celular importado, MJStore Imports, smartphones originais, entrega para todo o Brasil">
+<meta name="author" content="MJStore Imports">
+<meta name="theme-color" content="#08080a">
 
-  <!-- Favicons -->
-  <link href="assets/img/mj/IMG_0420.PNG" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+<meta property="og:type" content="website">
+<meta property="og:title" content="MJStore Imports | Apple e Xiaomi importados">
+<meta property="og:description" content="Encomende iPhone, iPad, MacBook e Xiaomi originais com nota, garantia e entrega para todo o Brasil.">
+<meta property="og:locale" content="pt_BR">
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link href="app.css" rel="stylesheet">
 </head>
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="120" tabindex="0">
 
-<body class="index-page">
+<div class="page-loader" id="pageLoader" aria-hidden="true">
+  <div class="loader-mark">MJ</div>
+  <div class="loader-bar"><span></span></div>
+</div>
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+<div class="topbar d-none d-lg-block">
+  <div class="container d-flex align-items-center justify-content-between">
+    <div class="d-flex align-items-center gap-4">
+      <span><i class="bi bi-truck"></i> Encomendas com envio para todo o Brasil</span>
+      <span><i class="bi bi-shield-check"></i> Nota fiscal e garantia em todos os pedidos</span>
+    </div>
+    <div class="d-flex align-items-center gap-3">
+      <a href="https://wa.me/5500000000000" target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+      <span class="topbar-sep"></span>
+      <span>Seg. a Sex. 9h às 19h &middot; Sáb. 9h às 14h</span>
+    </div>
+  </div>
+</div>
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
-       
-        <img src="assets/img/mj/IMG_0420.PNG" alt="" class="img-fluid logo" >
-
-        <h1 class="sitename">MJ Store</h1>
-        <span>.</span>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark main-navbar" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#top">
+        <span class="brand-mark">MJ</span>
+        <span class="brand-text">
+          <span class="brand-name">MJStore</span>
+          <span class="brand-sub">Imports</span>
+        </span>
       </a>
 
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="#hero" class="active">Início<br></a></li>
-          <li><a href="#about">Sobre</a></li>
-          <li><a href="#services">Serviços</a></li>
-          <li><a href="#portfolio">Produtos</a></li>
-          <li><a href="#team">Time</a></li>
-          <li><a href="#contact">Contato</a></li>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Abrir menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav mx-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#upgrade">Upgrade</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contrato">Contrato</a></li>
+          <li class="nav-item"><a class="nav-link" href="#avaliacoes">Avaliações</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
         </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-      <a class="btn-getstarted" href="index.html#about">Fale Conosco</a>
-
+        <div class="nav-cta d-flex align-items-center gap-2">
+          <button class="btn btn-ghost" type="button" data-bs-toggle="modal" data-bs-target="#quoteModal">
+            <i class="bi bi-calculator"></i><span>Orçamento</span>
+          </button>
+          <a class="btn btn-gold" href="#contato"><i class="bi bi-whatsapp"></i><span>Encomendar</span></a>
+        </div>
+      </div>
     </div>
-  </header>
-
-  <main class="main">
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-
-      <img src="assets/img/mj/herobg.png" alt="" data-aos="fade-in" class="img-fluid">
-
-      <div class="container">
-
-        <div class="row justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-xl-6 col-lg-8">
-            <h2>MJ Store Imports<span>.</span></h2>
-            <p>Seu sonho começa aqui!</p>
-          </div>
-        </div>
-
-        <div class="row gy-4 mt-5 justify-content-center" data-aos="fade-up" data-aos-delay="200">
-          <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon-box">
-              <i class="bi bi-apple"></i>
-              <h3><a href="">Iphones</a></h3>
-            </div>
-          </div>
-          <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon-box">
-              <i class="bi bi-playstation"></i>
-              <h3><a href="">Vídeogames</a></h3>
-            </div>
-          </div>
-          <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon-box">
-              <i class="bi bi-laptop"></i>
-              <h3><a href="">Macbooks</a></h3>
-            </div>
-          </div>
-          <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="600">
-            <div class="icon-box">
-              <i class="bi bi-phone"></i>
-              <h3><a href="">Smartphones Xiaomi</a></h3>
-            </div>
-          </div>
-          <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="700">
-            <div class="icon-box">
-              <i class="bi bi-tablet-landscape"></i>
-              <h3><a href="">Ipads</a></h3>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Hero Section -->
-
-    <!-- About Section -->
-    <section id="about" class="about section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-          <div class="col-lg-6 order-1 order-lg-2">
-            <img src="assets/img/2025-01-22.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 order-2 order-lg-1 content">
-            <h3>Lorem ipsum dolor sit amet</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <ul>
-              <li><i class="bi bi-check2-all"></i> <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus suscipit velit corporis, delectus veritatis laudantium vitae. Velit asperiores repellat, quod quibusdam quidem accusantium voluptates, totam quisquam obcaecati culpa magni temporibus?
-              </span></li>
-            </ul>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus suscipit velit corporis, delectus veritatis laudantium vitae. Velit asperiores repellat, quod quibusdam quidem accusantium voluptates
-            </p>
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /About Section -->
-
-    <!-- Features Section -->
-    <section id="features" class="features section">
-
-      <div class="container">
-
-        <div class="row gy-4">
-          <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><img src="assets/img/features-bg.jpg" alt=""></div>
-          <div class="col-lg-6">
-
-            <div class="features-item d-flex ps-0 ps-lg-3 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="200">
-              <i class="bi bi-archive flex-shrink-0"></i>
-              <div>
-                <h4>Est labore ad</h4>
-                <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-              </div>
-            </div><!-- End Features Item-->
-
-            <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-basket flex-shrink-0"></i>
-              <div>
-                <h4>Harum esse qui</h4>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-              </div>
-            </div><!-- End Features Item-->
-
-            <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-broadcast flex-shrink-0"></i>
-              <div>
-                <h4>Aut occaecati</h4>
-                <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
-              </div>
-            </div><!-- End Features Item-->
-
-            <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="500">
-              <i class="bi bi-camera-reels flex-shrink-0"></i>
-              <div>
-                <h4>Beatae veritatis</h4>
-                <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
-              </div>
-            </div><!-- End Features Item-->
-
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Features Section -->
-
-    <!-- Services Section -->
-    <section id="services" class="services section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Serviços</h2>
-        <p>Nossos Serviços</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-phone-fill"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Películas de hidrogel</h3>
-              </a>
-              <p>Ultra resistentes, auto regenerativas e com toque suave para uma experiência perfeita</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-phone-flip"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Capas</h3>
-              </a>
-              <p>Proteja seu celular com muito mais segurança e estilo. Encaixe perfeito e confortável. Modelos exclusivos e modernos</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-printer"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Capas Personalizadas</h3>
-              </a>
-              <p>Você pode ter uma capinha personalizada com a sua foto favorita. Impressão de alta qualidade e durabilidade.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Services Section -->
-
-    <!-- Call To Action Section -->
-    <section id="call-to-action" class="call-to-action section dark-background">
-
-      <img src="assets/img/apple2.jpg" alt="">
-
-      <div class="container">
-        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
-          <div class="col-xl-10">
-            <div class="text-center">
-              <h3>Não perca tempo.</h3>
-              <p> Compre seu Produto Apple a pronta entrega ou por encomenda.</p>
-              <a class="cta-btn" href="#">Comprar agora</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section><!-- /Call To Action Section -->
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Produtos</h2>
-        <p>Nosso Catálogo</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">Todos</li>
-            <li data-filter=".filter-app">Smartphones</li>
-            <li data-filter=".filter-product">Ipads</li>
-            <li data-filter=".filter-branding">Outros</li>
-          </ul><!-- End Portfolio Filters -->
-
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/portfolio/iphones.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Iphones</h4>
-                <p>Novos e seminovos com garantia.</p>
-                <a href="assets/img/portfolio/iphones.jpg" title="Iphones" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/portfolio/ipad.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Ipads</h4>
-                <p>Ipads com garantia de 12 meses</p>
-                <a href="assets/img/portfolio/ipad.jpg" title="Ipads" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-               
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/portfolio/ps5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Videogames</h4>
-                <p>Jogue ao máximo!</p>
-                <a href="assets/img/portfolio/ps5.jpg" title="Videogames" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-               
-              </div>
-            </div><!-- End Portfolio Item -->
-
-
-          </div><!-- End Portfolio Container -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Portfolio Section -->
-
-    <!-- Stats Section -->
-    <section id="stats" class="stats section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4 align-items-center justify-content-between">
-
-          <div class="col-lg-5">
-            <img src="assets/img/stats-img.jpg" alt="" class="img-fluid">
-          </div>
-
-          <div class="col-lg-6">
-
-            <h3 class="fw-bold fs-2 mb-3">Confiança e Qualidade Comprovadas!</h3>
-            <p>
-              Com mais de 5 anos de experiência, já atendemos mais de 1000 clientes satisfeitos. Nossa paixão é oferecer produtos com excelência e compromisso. Seja você o próximo a fazer parte dessa história!
-            </p>
-
-            <div class="row gy-4">
-
-              <div class="col-lg-6">
-                <div class="stats-item d-flex">
-                  <i class="bi bi-emoji-smile flex-shrink-0"></i>
-                  <div>
-                    <span data-purecounter-start="0" data-purecounter-end="1000" data-purecounter-duration="4" class="purecounter"></span>
-                    <p><strong>Mais de 1000</strong> <span>sonhos realizados</span></p>
-                  </div>
-                </div>
-              </div><!-- End Stats Item -->
-
-              <div class="col-lg-6">
-                <div class="stats-item d-flex">
-                  <i class="bi bi-building-fill-check flex-shrink-0"></i>
-                  <div>
-                    <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="4" class="purecounter"></span>
-                    <p><strong>Mais de 5 anos</strong> <span>realizando sonhos</span></p>
-                  </div>
-                </div>
-              </div><!-- End Stats Item -->
-
-              <!-- <div class="col-lg-6">
-                <div class="stats-item d-flex">
-                  <i class="bi bi-headset flex-shrink-0"></i>
-                  <div>
-                    <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Hours Of Support</strong> <span>aut commodi quaerat</span></p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-6">
-                <div class="stats-item d-flex">
-                  <i class="bi bi-people flex-shrink-0"></i>
-                  <div>
-                    <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Hard Workers</strong> <span>rerum asperiores dolor</span></p>
-                  </div>
-                </div>
-              </div> -->
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /Stats Section -->
-
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section dark-background">
-
-      <img src="assets/img/mj/woman-choosing-phone-technology-store.jpg" class="testimonials-bg" alt="">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              }
-            }
-          </script>
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-
-    </section><!-- /Testimonials Section -->
-
-    <!-- Team Section -->
-    <section id="team" class="team section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Time</h2>
-        <p>Nossa Equipe</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Matheus Lima</h4>
-                <span>CEO</span>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Pedro Oliveira</h4>
-                <span>Consultor</span>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Leonardo Zão</h4>
-                <span>Consultor</span>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Pedro Couto</h4>
-                <span>Consultor</span>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Team Section -->
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contato</h2>
-        <p>Contate-nos</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
- 
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4">
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-geo-alt flex-shrink-0"></i>
-              <div>
-                <h3>Endereço</h3>
-                <p>Avenida dos Operários, 70 - Loja 102, Centro - Paracambi/RJ</p>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-telephone flex-shrink-0"></i>
-              <div>
-                <h3>Telefone</h3>
-                <p>(24) 98827-0603</p>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
-              <i class="bi bi-envelope flex-shrink-0"></i>
-              <div>
-                <h3>Email </h3>
-                <p>mjstoreimport@gmail.com</p>
-              </div>
-            </div><!-- End Info Item -->
-
-          </div>
-
-          <div class="col-lg-8">
-            <div class="mb-4" data-aos="fade-up" data-aos-delay="200">
-              <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.1885793515435!2d-43.7097009!3d-22.609432100000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x994fc932adbd6b%3A0xb1fb92ced9db0868!2sMJ%20Store%20Imports!5e0!3m2!1spt-BR!2sbr!4v1740266970020!5m2!1spt-BR!2sbr" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div><!-- End Google Maps -->
-          </div><!-- End Contact Form -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Contact Section -->
-
-  </main>
-
-  <footer id="footer" class="footer dark-background">
-
-    <div class="footer-top">
-      <div class="container">
-        <div class="row gy-4 justify-content-between">
-          <div class="col-lg-4 col-md-6 footer-about">
-            <a href="index.html" class="logo d-flex align-items-center">
-              <span class="sitename">MJ Store Imports</span>
+  </nav>
+</header>
+
+<main id="top">
+
+  <section class="hero" id="inicio">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="hero-glow hero-glow-1"></div>
+      <div class="hero-glow hero-glow-2"></div>
+      <div class="hero-grid"></div>
+    </div>
+
+    <div class="container position-relative">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-7">
+          <span class="eyebrow reveal" data-delay="0">
+            <i class="bi bi-stars"></i> Importação oficial &middot; Encomendas &middot; Entrega nacional
+          </span>
+          <h1 class="hero-title reveal" data-delay="1">
+            Toda a linha <span class="text-gold">Apple</span>.<br>
+            E o melhor da <span class="text-gold">Xiaomi</span>.<br>
+            <span class="hero-title-thin">No seu endereço, no seu prazo.</span>
+          </h1>
+          <p class="hero-lead reveal" data-delay="2">
+            A <strong>MJStore Imports</strong> compra direto na origem e entrega aparelhos originais
+            com nota fiscal, garantia e suporte real. Do iPhone 15 ao MacBook Pro, do iPad Air ao
+            Xiaomi mais potente do ano.
+          </p>
+
+          <div class="hero-actions reveal" data-delay="3">
+            <a class="btn btn-gold btn-lg" href="#produtos">
+              <i class="bi bi-bag-check"></i> Ver produtos
             </a>
-            <div class="footer-contact pt-3">
-              <p>Avenida dos Operários, 70 - Loja 102</p>
-              <p>Centro, Paracambi/RJ</p>
-              <p>CEP: 26.600-000</p>
-              <p class="mt-3"><strong>Telefone:</strong> <span>(24) 98827-0603</span></p>
-              <p><strong>Email:</strong> <span>mjstoreimport@gmail.com</span></p>
-            </div>
-            <div class="social-links d-flex mt-4">
-              <a href=""><i class="bi bi-facebook"></i></a>
-              <a href=""><i class="bi bi-instagram"></i></a>
-            </div>
+            <a class="btn btn-outline-gold btn-lg" href="#upgrade">
+              <i class="bi bi-arrow-repeat"></i> Como funciona o upgrade
+            </a>
           </div>
 
-          <div class="col-lg-4 col-md-3 footer-links">
-            <h4>Links Úteis</h4>
-            <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Início</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Sobre</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Serviços</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Produtos</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Time</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Contato</a></li>
-   
+          <ul class="hero-badges reveal" data-delay="4">
+            <li><i class="bi bi-patch-check-fill"></i> 100% original</li>
+            <li><i class="bi bi-receipt"></i> Nota fiscal</li>
+            <li><i class="bi bi-life-preserver"></i> Garantia e suporte</li>
+            <li><i class="bi bi-geo-alt"></i> Brasil inteiro</li>
+          </ul>
+        </div>
+
+        <div class="col-lg-5">
+          <div class="hero-card reveal" data-delay="3">
+            <div class="hero-card-head">
+              <span class="tag tag-gold">Encomenda em destaque</span>
+              <span class="hero-card-rate"><i class="bi bi-star-fill"></i> 4.9</span>
+            </div>
+
+            <div class="device-visual device-visual-lg">
+              <i class="bi bi-phone"></i>
+              <div class="device-ring"></div>
+            </div>
+
+            <h3 class="hero-card-title">iPhone 15 Pro Max 256GB</h3>
+            <p class="hero-card-sub">Titânio natural &middot; A17 Pro &middot;.Global, lacrado</p>
+
+            <div class="hero-card-price">
+              <div>
+                <span class="price-old">R$ 12.900</span>
+                <span class="price-new">R$ 9.490</span>
+              </div>
+              <span class="price-parc">ou 12x de R$ 880</span>
+            </div>
+
+            <div class="hero-card-meta">
+              <span><i class="bi bi-box-seam"></i> Encomenda em 3 dias</span>
+              <span><i class="bi bi-truck"></i> Entrega calculada no checkout</span>
+            </div>
+
+            <a class="btn btn-gold w-100" href="#contato" data-prefill="iPhone 15 Pro Max 256GB">
+              <i class="bi bi-whatsapp"></i> Quero esta encomenda
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-wave" aria-hidden="true"></div>
+  </section>
+
+  <section class="stats-strip">
+    <div class="container">
+      <div class="row g-0">
+        <div class="col-6 col-lg-3">
+          <div class="stat">
+            <span class="stat-num" data-count="5200" data-suffix="+">0</span>
+            <span class="stat-label">Aparelhos entregues</span>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3">
+          <div class="stat">
+            <span class="stat-num" data-count="17" data-suffix=" anos">0</span>
+            <span class="stat-label">No mercado de importação</span>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3">
+          <div class="stat">
+            <span class="stat-num" data-count="24" data-suffix="h">0</span>
+            <span class="stat-label">Para responder seu pedido</span>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3">
+          <div class="stat">
+            <span class="stat-num" data-count="4.9" data-decimals="1">0</span>
+            <span class="stat-label">Avaliação média dos clientes</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section sobre" id="sobre">
+    <div class="container">
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-6">
+          <div class="about-visual reveal">
+            <div class="about-card-main">
+              <div class="about-card-badge">17 anos</div>
+              <h3>Importando tecnologia do mundo para o seu bolso</h3>
+              <p>
+                Começamos como uma operação pequena de compra e venda de aparelhos importados.
+                Hoje somos referência em iPhone, iPad, MacBook e Xiaomi para clientes em todo o
+                território nacional, com processo transparente do pagamento à entrega.
+              </p>
+              <div class="about-sign">MJStore Imports</div>
+            </div>
+            <div class="about-card-float about-card-float-1">
+              <i class="bi bi-apple"></i>
+              <span>Linha Apple completa</span>
+            </div>
+            <div class="about-card-float about-card-float-2">
+              <i class="bi bi-phone"></i>
+              <span>Xiaomi original</span>
+            </div>
+            <div class="about-glow"></div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <span class="section-label reveal"><i class="bi bi-info-circle"></i> Sobre a loja</span>
+          <h2 class="section-title reveal" data-delay="1">Tecnologia de ponta com compra segura e transparente</h2>
+          <p class="section-text reveal" data-delay="2">
+            Na MJStore Imports você não compra mistério. Cada pedido passa por uma cotação clara,
+            um contrato digital simples e um rastreio que funciona. Trabalhamos com produtos
+            originais, lacrados, com nota e garantia — e com atendimento humano depois da venda.
+          </p>
+
+          <div class="about-features">
+            <div class="feature reveal" data-delay="1">
+              <div class="feature-icon"><i class="bi bi-box-seam"></i></div>
+              <h4>Compra direta na origem</h4>
+              <p>Compramos nos Estados Unidos e na China, eliminando intermediários e reduzindo o custo.</p>
+            </div>
+            <div class="feature reveal" data-delay="2">
+              <div class="feature-icon"><i class="bi bi-file-earmark-text"></i></div>
+              <h4>Contrato digital claro</h4>
+              <p>Você aprova valores, prazo e condições antes de qualquer pagamento.</p>
+            </div>
+            <div class="feature reveal" data-delay="3">
+              <div class="feature-icon"><i class="bi bi-arrow-left-right"></i></div>
+              <h4>Upgrade de aparelho</h4>
+              <p>Seu usado entra como pagamento e sai com laudo técnico, fotos e print.</p>
+            </div>
+            <div class="feature reveal" data-delay="4">
+              <div class="feature-icon"><i class="bi bi-headset"></i></div>
+              <h4>Suporte pós-venda</h4>
+              <p>Time especializado em Apple e Android para dúvidas, ativação e assistência.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt produtos" id="produtos">
+    <div class="container">
+      <div class="section-head text-center">
+        <span class="section-label reveal"><i class="bi bi-bag"></i> Produtos</span>
+        <h2 class="section-title reveal" data-delay="1">Vitrine de encomendas</h2>
+        <p class="section-text mx-auto reveal" data-delay="2">
+          Preços de referência para equipamentos originais importados. Clique em
+          <strong>Encomendar</strong> e montamos sua cotação personalizada com frete e prazo reais.
+        </p>
+      </div>
+
+      <div class="filter-bar reveal" data-delay="3" id="productFilters" role="tablist" aria-label="Filtrar produtos">
+        <button class="filter-chip is-active" type="button" data-filter="todos" role="tab" aria-selected="true">Todos</button>
+        <button class="filter-chip" type="button" data-filter="iphone" role="tab" aria-selected="false">iPhone</button>
+        <button class="filter-chip" type="button" data-filter="ipad" role="tab" aria-selected="false">iPad</button>
+        <button class="filter-chip" type="button" data-filter="macbook" role="tab" aria-selected="false">MacBook</button>
+        <button class="filter-chip" type="button" data-filter="watch" role="tab" aria-selected="false">Watch &amp; Acessórios</button>
+        <button class="filter-chip" type="button" data-filter="xiaomi" role="tab" aria-selected="false">Xiaomi</button>
+      </div>
+
+      <div class="row g-4" id="productGrid">
+
+        <div class="col-md-6 col-xl-4 product-col" data-category="iphone">
+          <article class="product-card reveal">
+            <div class="product-head">
+              <span class="tag tag-gold">Mais encomendado</span>
+              <span class="product-rate"><i class="bi bi-star-fill"></i> 4.9</span>
+            </div>
+            <div class="product-visual"><i class="bi bi-phone"></i></div>
+            <h3 class="product-name">iPhone 15 Pro Max</h3>
+            <p class="product-spec">256GB &middot; A17 Pro &middot; Global lacrado</p>
+            <ul class="product-specs">
+              <li><i class="bi bi-check2"></i> Tela Super Retina XDR 120Hz</li>
+              <li><i class="bi bi-check2"></i> 3 câmeras de 48MP</li>
+              <li><i class="bi bi-check2"></i> Chip A17 Pro</li>
             </ul>
+            <div class="product-price">
+              <span class="price-new">R$ 9.490</span>
+              <span class="price-parc">12x de R$ 880</span>
+            </div>
+            <a class="btn btn-gold w-100" href="#contato" data-prefill="iPhone 15 Pro Max 256GB">
+              <i class="bi bi-cart-plus"></i> Encomendar
+            </a>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-xl-4 product-col" data-category="iphone">
+          <article class="product-card reveal" data-delay="1">
+            <div class="product-head">
+              <span class="tag tag-dark">Lançamento</span>
+              <span class="product-rate"><i class="bi bi-star-fill"></i> 4.8</span>
+            </div>
+            <div class="product-visual"><i class="bi bi-phone"></i></div>
+            <h3 class="product-name">iPhone 16 Pro</h3>
+            <p class="product-spec">128GB &middot; A18 Pro &middot; Global lacrado</p>
+            <ul class="product-specs">
+              <li><i class="bi bi-check2"></i> Tela 6,3" Always-on</li>
+              <li><i class="bi bi-check2"></i> Botão de Controle</li>
+              <li><i class="bi bi-check2"></i> Chip A18 Pro</li>
+            </ul>
+            <div class="product-price">
+              <span class="price-new">R$ 8.290</span>
+              <span class="price-parc">12x de R$ 760</span>
+            </div>
+            <a class="btn btn-outline-gold w-100" href="#contato" data-prefill="iPhone 16 Pro 128GB">
+              <i class="bi bi-cart-plus"></i> Encomendar
+            </a>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-xl-4 product-col" data-category="iphone">
+          <article class="product-card reveal" data-delay="2">
+            <div class="product-head">
+              <span class="tag tag-dark">Custo-benefício</span>
+              <span class="product-rate"><i class="bi bi-star-fill"></i> 4.7</span>
+            </div>
+            <div class="product-visual"><i class="bi bi-phone"></i></div>
+            <h3 class="product-name">iPhone 14</h3>
+            <p class="product-spec">128GB &middot; A15 Bionic &middot; Global lacrado</p>
+            <ul class="product-specs">
+              <li><i class="bi bi-check2"></i> Tela Super Retina</li>
+              <li><i class="bi bi-check2"></i> Modo Cinemático</li>
+              <li><i class="bi bi-check2"></i> Giroscópio</li>
+            </ul>
+            <div class="product-price">
+              <span class="price-new">R$ 5.390</span>
+              <span class="price-parc">12x de R$ 490</span>
+            </div>
+            <a class="btn btn-outline-gold w-100" href="#contato" data-prefill="iPhone 14 128GB">
+              <i class="bi bi-cart-plus"></i> Encomendar
+            </a>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-xl-4 product-col" data-category="ipad">
+          <article class="product-card reveal">
+            <div class="product-head">
+              <span class="tag tag-gold">Estar</span>
+              <span class="product-rate"><i class="bi bi-star-fill"></i> 4.8</span>
+            </div>
+            <div class="product-visual"><i class="bi bi-tablet-landscape"></i></div>
+            <h3 class="product-name">iPad Air 11" M2</h3>
+            <p class="product-spec">128GB Wi-Fi &middot; M2 &middot; Original Apple</p>
+            <ul class="product-specs">
+              <li><i class="bi bi-check2"></i> Tela Liquid Retina</li>
+              <li><i class="bi bi-check2"></i> Apple Pencil Pro</li>
+              <li><i class="bi bi-check2"></i> Chip M2</li>
+            </ul>
+            <div class="product-price">
+              <span class="price-new">R$ 6.190</span>
+              <span class="price-parc">12x de R$ 570</span>
+            </div>
+            <a class="btn btn-outline-gold w-100" href="#contato" data-prefill="iPad Air 11&quot; M2 128GB">
+              <i class="bi bi-cart-plus"></i> Encomendar
+            </a>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-xl-4 product-col" data-category="ipad">
+          <article class="product-card reveal" data-delay="1">
+            <div class="product-head">
+              <span class="tag tag-dark">Produtividade</span>
+              <span class="product-rate"><i class="bi bi-star-fill"></i> 4.9</span>
+            </div>
+            <div class="product-visual"><i class="bi bi-tablet-landscape"></i></div>
+            <h3 class="product-name">iPad Pro 13" M4</h3>
+            <p class="product-spec">256GB &middot; M4 &middot; Original Apple</p>
+            <ul class="product-specs">
+              <li><i class="bi bi-check2"></i> Tela Ultra Retina XDR</li>
+              <li><i class="bi bi-check2"></i> Chip M4 de 8 núcleos</li>
+              <li><i class="bi bi-check2"></i> Thunderbolt 4</li>
+            </ul>
+            <div class="product-price">
+              <span class="price-new">R$ 11.890</span>
+              <span class="price-parc">12x de R$ 1.080</span>
+            </div>
+            <a class="btn btn-outline-gold w-100" href="#contato" data-prefill="iPad Pro 13&quot; M4 256GB">
+              <i class="bi bi-cart-plus"></i> Encomendar
+            </a>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-xl-4 product-col" data-category="macbook">
+          <article class="product-card reveal" data-delay="2">
+            <div class="product-head">
+              <span class="tag tag-gold">Top de vendas</span>
+              <span class="product-rate"><i class="bi bi-star-fill"></i> 5.0</span>
+            </div>
+            <div class="product-visual"><i class="bi bi-laptop"></i></div>
+            <h3 class="product-name">MacBook Air 13" M3</h3>
+            <p class="product-spec">256GB SSD &middot; M3 &middot; 8GB RAM</p>
+            <ul class="product-specs">
+              <li><i class="bi bi-check2"></i> 18h de bateria</li>
+              <li><i class="bi bi-check2"></i> Sem ventoinha, silencioso</li>
+              <li><i class="bi bi-check2"></i> Leve, apenas 1,24kg</li>
+            </ul>
+            <div class="product-price">
+              <span class="price-new">R$ 8.990</span>
+              <span class="price-parc">12x de R$ 820</span>
+            </div>
+            <a class="btn btn-outline-gold w-100" href="#contato" data-prefill="MacBook Air 13&quot; M3 256GB">
+              <i class="bi bi-cart-plus"></i> Encomendar
+            </a>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-xl-4 product-col" data-category="macbook">
+          <article class="product-card reveal">
+            <div class="product-head">
+              <span class="tag tag-dark">Profissional</span>
+              <span class="product-rate"><i class="bi bi-star-fill"></i> 4.9</span>
+            </div>
+            <div class="product-visual"><i class="bi bi-laptop"></i></div>
+            <h3 class="product-name">MacBook Pro 16" M3 Pro</h3>
+            <p class="product-spec">512GB SSD &middot; M3 Pro &middot; 18GB RAM</p>
+            <ul class="product-specs">
+              <li><i class="bi bi-check2"></i> Tela Liquid Retina XDR</li>
+              <li><i class="bi bi-check2"></i> 3 portas Thunderbolt 4</li>
+              <li><i class="bi bi-check2"></i> Vídeo ProRes RAW</li>
+            </ul>
+            <div class="product-price">
+              <span class="price-new">R$ 18.400</span>
+              <span class="price-parc">12x de R$ 1.640</span>
+            </div>
+            <a class="btn btn-outline-gold w-100" href="#contato" data-prefill="MacBook Pro 16&quot; M3 Pro 512GB">
+              <i class="bi bi-cart-plus"></i> Encomendar
+            </a>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-xl-4 product-col" data-category="watch">
+          <article class="product-card reveal" data-delay="1">
+            <div class="product-head">
+              <span class="tag tag-gold">Presente</span>
+              <span class="product-rate"><i class="bi bi-star-fill"></i> 4.8</span>
+            </div>
+            <div class="product-visual"><i class="bi bi-smartwatch"></i></div>
+            <h3 class="product-name">Apple Watch Series 9</h3>
+            <p class="product-spec">45mm &middot; GPS &middot; Caixa de alumínio</p>
+            <ul class="product-specs">
+              <li><i class="bi bi-check2"></i> Oxímetro de sangue</li>
+              <li><i class="bi bi-check2"></i> Mapeamento de rotas</li>
+              <li><i class="bi bi-check2"></i> Até 45h de autonomia</li>
+            </ul>
+            <div class="product-price">
+              <span class="price-new">R$ 2.690</span>
+              <span class="price-parc">12x de R$ 245</span>
+            </div>
+            <a class="btn btn-outline-gold w-100" href="#contato" data-prefill="Apple Watch Series 9 45mm GPS">
+              <i class="bi bi-cart-plus"></i> Encomendar
+            </a>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-xl-4 product-col" data-category="watch">
+          <article class="product-card reveal" data-delay="2">
+            <div class="product-head">
+              <span class="tag tag-dark">Acessório</span>
+              <span class="product-rate"><i class="bi bi-star-fill"></i> 4.7</span>
+            </div>
+            <div class="product-visual"><i class="bi bi-earbuds"></i></div>
+            <h3 class="product-name">AirPods Pro 2 USB-C</h3>
+            <p class="product-spec">Original Apple &middot; Geração 2</p>
+            <ul class="product-specs">
+              <li><i class="bi bi-check2"></i> Cancelamento ativo 2x</li>
+              <li><i class="bi bi-check2"></i> Áudio espacial</li>
+              <li><i class="bi bi-check2"></i> MagSafe</li>
+            </ul>
+            <div class="product-price">
+              <span class="price-new">R$ 1.390</span>
+              <span class="price-parc">12x de R$ 130</span>
+            </div>
+            <a class="btn btn-outline-gold w-100" href="#contato" data-prefill="AirPods Pro 2 USB-C">
+              <i class="bi bi-cart-plus"></i> Encomendar
+            </a>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-xl-4 product-col" data-category="xiaomi">
+          <article class="product-card reveal">
+            <div class="product-head">
+              <span class="tag tag-gold">Best-seller</span>
+              <span class="product-rate"><i class="bi bi-star-fill"></i> 4.8</span>
+            </div>
+            <div class="product-visual product-visual-xiaomi"><i class="bi bi-phone"></i></div>
+            <h3 class="product-name">Xiaomi 14 Ultra</h3>
+            <p class="product-spec">512GB &middot; Snapdragon 8 Gen 3 &middot; Original</p>
+            <ul class="product-specs">
+              <li><i class="bi bi-check2"></i> Câmera Leica 1"</li>
+              <li><i class="bi bi-check2"></i> Tela AMOLED 120Hz</li>
+              <li><i class="bi bi-check2"></i> Carga 90W</li>
+            </ul>
+            <div class="product-price">
+              <span class="price-new">R$ 5.690</span>
+              <span class="price-parc">12x de R$ 520</span>
+            </div>
+            <a class="btn btn-outline-gold w-100" href="#contato" data-prefill="Xiaomi 14 Ultra 512GB">
+              <i class="bi bi-cart-plus"></i> Encomendar
+            </a>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-xl-4 product-col" data-category="xiaomi">
+          <article class="product-card reveal" data-delay="1">
+            <div class="product-head">
+              <span class="tag tag-dark">Custo-benefício</span>
+              <span class="product-rate"><i class="bi bi-star-fill"></i> 4.7</span>
+            </div>
+            <div class="product-visual product-visual-xiaomi"><i class="bi bi-phone"></i></div>
+            <h3 class="product-name">Xiaomi Redmi Note 13 Pro</h3>
+            <p class="product-spec">256GB &middot; Snapdragon 7s &middot; Original</p>
+            <ul class="product-specs">
+              <li><i class="bi bi-check2"></i> Câmera de 200MP</li>
+              <li><i class="bi bi-check2"></i> AMOLED 120Hz</li>
+              <li><i class="bi bi-check2"></i> Bateria de 5.100mAh</li>
+            </ul>
+            <div class="product-price">
+              <span class="price-new">R$ 2.290</span>
+              <span class="price-parc">12x de R$ 210</span>
+            </div>
+            <a class="btn btn-outline-gold w-100" href="#contato" data-prefill="Xiaomi Redmi Note 13 Pro 256GB">
+              <i class="bi bi-cart-plus"></i> Encomendar
+            </a>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-xl-4 product-col" data-category="xiaomi">
+          <article class="product-card reveal" data-delay="2">
+            <div class="product-head">
+              <span class="tag tag-dark">Plano de dados</span>
+              <span class="product-rate"><i class="bi bi-star-fill"></i> 4.6</span>
+            </div>
+            <div class="product-visual product-visual-xiaomi"><i class="bi bi-phone"></i></div>
+            <h3 class="product-name">Xiaomi 13T Pro</h3>
+            <p class="product-spec">256GB &middot; Dimensity 9200+ &middot; Original</p>
+            <ul class="product-specs">
+              <li><i class="bi bi-check2"></i> Tela AMOLED 144Hz</li>
+              <li><i class="bi bi-check2"></i> Carregamento 120W</li>
+              <li><i class="bi bi-check2"></i> Certificação Google</li>
+            </ul>
+            <div class="product-price">
+              <span class="price-new">R$ 3.140</span>
+              <span class="price-parc">12x de R$ 290</span>
+            </div>
+            <a class="btn btn-outline-gold w-100" href="#contato" data-prefill="Xiaomi 13T Pro 256GB">
+              <i class="bi bi-cart-plus"></i> Encomendar
+            </a>
+          </article>
+        </div>
+
+      </div>
+
+      <p class="filter-empty text-center d-none" id="filterEmpty">Nenhum produto nesta categoria por enquanto. Fale com a gente e encomendamos para você.</p>
+
+      <div class="products-cta reveal">
+        <p class="mb-2">Não encontrou o que procura? Encomendamos qualquer modelo da Apple e da Xiaomi.</p>
+        <a class="btn btn-gold" href="#contato"><i class="bi bi-chat-dots"></i> Falar com um consultor</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section upgrade" id="upgrade">
+    <div class="upgrade-bg" aria-hidden="true"></div>
+    <div class="container position-relative">
+      <div class="section-head text-center">
+        <span class="section-label reveal"><i class="bi bi-arrow-left-right"></i> Upgrade de aparelho</span>
+        <h2 class="section-title reveal" data-delay="1">Troque sem começar do zero</h2>
+        <p class="section-text mx-auto reveal" data-delay="2">
+          Nosso processo de <strong>upgrade</strong> foi criado para quem não quer gastar o valor
+          inteiro de um aparelho novo. Você entrega o usado, avaliamos com laudo técnico e
+          transformamos o saldo em desconto direto no seu novo iPhone, iPad ou MacBook.
+        </p>
+      </div>
+
+      <div class="row g-5 align-items-start">
+        <div class="col-lg-4">
+          <div class="upgrade-steps" id="upgradeSteps" role="tablist" aria-label="Etapas do upgrade">
+            <button type="button" class="upgrade-step is-active" data-step="0" role="tab" aria-selected="true">
+              <span class="step-index">01</span>
+              <span class="step-text">
+                <strong>Escolha do aparelho novo</strong>
+                <small>Consulta de disponibilidade e pré-cotação</small>
+              </span>
+              <i class="bi bi-chevron-right"></i>
+            </button>
+            <button type="button" class="upgrade-step" data-step="1" role="tab" aria-selected="false">
+              <span class="step-index">02</span>
+              <span class="step-text">
+                <strong>Avaliação do seu usado</strong>
+                <small>Inspeção técnica, teste funcional e fotos</small>
+              </span>
+              <i class="bi bi-chevron-right"></i>
+            </button>
+            <button type="button" class="upgrade-step" data-step="2" role="tab" aria-selected="false">
+              <span class="step-index">03</span>
+              <span class="step-text">
+                <strong>Laudo e proposta fechada</strong>
+                <small>Valor de depreciação formalizado em contrato</small>
+              </span>
+              <i class="bi bi-chevron-right"></i>
+            </button>
+            <button type="button" class="upgrade-step" data-step="3" role="tab" aria-selected="false">
+              <span class="step-index">04</span>
+              <span class="step-text">
+                <strong>Pagamento do saldo</strong>
+                <small>À vista ou parcelado no contrato</small>
+              </span>
+              <i class="bi bi-chevron-right"></i>
+            </button>
+            <button type="button" class="upgrade-step" data-step="4" role="tab" aria-selected="false">
+              <span class="step-index">05</span>
+              <span class="step-text">
+                <strong>Troca e garantia</strong>
+                <small>Entrega do novo, recibo do usado e garantia</small>
+              </span>
+              <i class="bi bi-chevron-right"></i>
+            </button>
           </div>
 
+          <a class="btn btn-gold w-100 mt-4" href="#contato" data-prefill="Upgrade de aparelho">
+            <i class="bi bi-arrow-left-right"></i> Quero fazer upgrade
+          </a>
+        </div>
 
+        <div class="col-lg-8">
+          <div class="upgrade-panel" id="upgradePanel">
+            <div class="upgrade-panel-item is-active" data-panel="0">
+              <span class="tag tag-gold">Etapa 1</span>
+              <h3>Escolha do aparelho novo</h3>
+              <p>
+                Você nos diz o modelo, a cor e a memória de armazenamento desejada. Consultamos a
+                disponibilidade real na origem e devolvemos uma pré-cotação com preço final, frete
+                estimado e prazo de chegada — sem compromisso de compra.
+              </p>
+              <ul class="panel-list">
+                <li><i class="bi bi-check-circle-fill"></i> Pré-cotação em até 24 horas</li>
+                <li><i class="bi bi-check-circle-fill"></i> Comparativo de custo com o mercado nacional</li>
+                <li><i class="bi bi-check-circle-fill"></i> Simulação de upgrade já aplicada no valor</li>
+              </ul>
+            </div>
 
+            <div class="upgrade-panel-item" data-panel="1">
+              <span class="tag tag-gold">Etapa 2</span>
+              <h3>Avaliação do seu aparelho usado</h3>
+              <p>
+                Você pode enviar o aparelho pelo Correios (com embalagem e seguro) ou trazer a uma
+                das nossas unidades. Realizamos inspeção completa: tela, bateria, carcaça, botões,
+                câmeras, rede e iCloud/FMI quando aplicável, com registro fotográfico.
+              </p>
+              <ul class="panel-list">
+                <li><i class="bi bi-check-circle-fill"></i> Laudo técnico com fotos do estado real</li>
+                <li><i class="bi bi-check-circle-fill"></i> Avaliação transparente, sem “depreciação surpresa”</li>
+                <li><i class="bi bi-check-circle-fill"></i> Prazo de até 48h para o laudo após o recebimento</li>
+              </ul>
+            </div>
+
+            <div class="upgrade-panel-item" data-panel="2">
+              <span class="tag tag-gold">Etapa 3</span>
+              <h3>Laudo e proposta fechada</h3>
+              <p>
+                Você recebe o laudo, o valor de depreciação do usado e a proposta de upgrade
+                fechada: preço do novo, valor deduzido, saldo e condições de parcelamento.
+                Essa proposta é registrada no contrato digital de compra.
+              </p>
+              <ul class="panel-list">
+                <li><i class="bi bi-check-circle-fill"></i> Upgrade registrado no contrato de compra</li>
+                <li><i class="bi bi-check-circle-fill"></i> Documento de transferência de propriedade do usado</li>
+                <li><i class="bi bi-check-circle-fill"></i> Sem custo adicional de análise</li>
+              </ul>
+            </div>
+
+            <div class="upgrade-panel-item" data-panel="3">
+              <span class="tag tag-gold">Etapa 4</span>
+              <h3>Pagamento do saldo</h3>
+              <p>
+                Depois da aprovação, o aparelho novo é reservado e a compra na origem é efetivada.
+                Você paga somente o saldo — via PIX, cartão em até 12x, boleto ou transferência.
+                O usado segue para nossa triagem e revenda responsável.
+              </p>
+              <ul class="panel-list">
+                <li><i class="bi bi-check-circle-fill"></i> PIX, cartão (até 12x), boleto ou transferência</li>
+                <li><i class="bi bi-check-circle-fill"></i> Reserva do novo por 48h após a aprovação</li>
+                <li><i class="bi bi-check-circle-fill"></i> Comprovante e nota fiscal eletrônica</li>
+              </ul>
+            </div>
+
+            <div class="upgrade-panel-item" data-panel="4">
+              <span class="tag tag-gold">Etapa 5</span>
+              <h3>Troca e garantia</h3>
+              <p>
+                O novo aparelho é entregue com código de rastreio, nota fiscal e início de
+                garantia. Acompanhamos a ativação com você, orientamos a configuração inicial e
+                liberamos nossa garantia própria de 12 meses sobre o produto e o processo.
+              </p>
+              <ul class="panel-list">
+                <li><i class="bi bi-check-circle-fill"></i> Rastreio do envio para todo o Brasil</li>
+                <li><i class="bi bi-check-circle-fill"></i> 12 meses de garantia da loja + garantia do fabricante</li>
+                <li><i class="bi bi-check-circle-fill"></i> Suporte técnico especializado pós-entrega</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="upgrade-compare">
+            <div class="compare-item">
+              <span class="compare-label">Compra direta</span>
+              <strong>Sem intermediário</strong>
+              <small>Preço final abaixo da revenda nacional</small>
+            </div>
+            <div class="compare-item">
+              <span class="compare-label">Seu usado</span>
+              <strong>Vira desconto</strong>
+              <small>Avaliação com laudo em 48h</small>
+            </div>
+            <div class="compare-item">
+              <span class="compare-label">Seu risco</span>
+              <strong>Contrato assinado</strong>
+              <small>Valores e prazos registrados por escrito</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-wrap reveal">
+        <h3 class="faq-title">Dúvidas frequentes sobre upgrade</h3>
+        <div class="accordion" id="faqAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                O que é aceito como aparelho usado?
+              </button>
+            </h2>
+            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                iPhone, iPad, MacBook, Apple Watch e aparelhos Xiaomi em estado funcional. O valor
+                varia conforme modelo, capacidade de armazenamento, condição da tela e bateria e
+                funcionamento da câmera. Tudo isso está registrado no laudo que você aprova.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                A depreciação é combinada antes de eu enviar?
+              </button>
+            </h2>
+            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Sim. Você recebe uma faixa de valor estimada para o usado antes do envio. Ao
+                retirarmos o aparelho, o laudo confirma ou ajusta esse valor e só então a proposta
+                de upgrade é fechada e registrada no contrato.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                Quanto tempo demora todo o processo?
+              </button>
+            </h2>
+            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Média de 15 a 30 dias: até 1 dia para a pré-cotação, 2 dias para o envio do usado,
+                2 dias úteis para o laudo, 1 dia para a aprovação e de 7 a 21 dias para a
+                importação e entrega do novo. Para capitais, o prazo costuma ser menor.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                Meu usado fica com garantia?
+              </button>
+            </h2>
+            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Seu usado sai da sua propriedade com termo de transferência assinado e recibo.
+                A triagem e o destino (revenda ou reciclagem certificada) são informados no laudo.
+                Emitimos recibo de transferência para fins fiscais.
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+  </section>
 
-    <div class="copyright">
-      <div class="container text-center">
-        <p>© <span>2025</span> &middot; <strong class="px-1 sitename">MJ Store Imports</strong> &middot; <span>Todos os direitos reservados.</span></p>
-        <div class="credits">
+  <section class="section contrato" id="contrato">
+    <div class="container">
+      <div class="section-head text-center">
+        <span class="section-label reveal"><i class="bi bi-file-earmark-lock"></i> Contrato de compra</span>
+        <h2 class="section-title reveal" data-delay="1">Compra segura, sem letras miúdas</h2>
+        <p class="section-text mx-auto reveal" data-delay="2">
+          Todo pedido da MJStore Imports é formalizado em <strong>contrato digital de compra</strong>
+          assinado pelo cliente. Ele reúne produto, valor, forma de pagamento, prazo, frete,
+          garantia e condições de troca — tudo consultável a qualquer momento.
+        </p>
+      </div>
 
-          Desenvolvido por  <a href="">Thiago de Souza</a>
+      <div class="row g-4">
+        <div class="col-md-6 col-xl-3">
+          <div class="contract-card reveal">
+            <div class="contract-icon"><i class="bi bi-file-earmark-text"></i></div>
+            <h4>Formalização digital</h4>
+            <p>Contrato gerado após a aprovação da cotação, assinado digitalmente pelo cliente com registro de data e hora.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-xl-3">
+          <div class="contract-card reveal" data-delay="1">
+            <div class="contract-icon"><i class="bi bi-cash-coin"></i></div>
+            <h4>Preço transparente</h4>
+            <p>Valor do produto, frete, impostos e Taxa de desoneração já discriminados. Sem taxa surpresa depois da aprovação.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-xl-3">
+          <div class="contract-card reveal" data-delay="2">
+            <div class="contract-icon"><i class="bi bi-arrow-left-right"></i></div>
+            <h4>Upgrade contratado</h4>
+            <p>Quando existe aparelho usado, a proposta de upgrade é anexada ao contrato, com valor do usado e saldo devidos.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-xl-3">
+          <div class="contract-card reveal" data-delay="3">
+            <div class="contract-icon"><i class="bi bi-shield-check"></i></div>
+            <h4>Garantia registrada</h4>
+            <p>Prazo de garantia da loja e do fabricante descritos no contrato, com canal oficial de atendimento.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-4 mt-2 align-items-stretch">
+        <div class="col-lg-7">
+          <div class="contract-terms reveal">
+            <h3 class="mb-4">Condições que você assina</h3>
+
+            <div class="term-item">
+              <i class="bi bi-1-circle-fill"></i>
+              <div>
+                <h5>Objeto e procedência</h5>
+                <p>Aparelhos originais, lacrados, de primeira linha, importados diretamente dos Estados Unidos e da China, com nota fiscal emitida pela MJStore Imports.</p>
+              </div>
+            </div>
+
+            <div class="term-item">
+              <i class="bi bi-2-circle-fill"></i>
+              <div>
+                <h5>Pagamento e reserva</h5>
+                <p>Pagamento em PIX, cartão (até 12x), boleto ou transferência. A reserva do produto é mantida por 48h após a aprovação da proposta; após isso, o estoque não é garantido.</p>
+              </div>
+            </div>
+
+            <div class="term-item">
+              <i class="bi bi-3-circle-fill"></i>
+              <div>
+                <h5>Prazo de importação e entrega</h5>
+                <p>Prazos de 7 a 30 dias, variando conforme origem, desembaraço aduaneiro e destino. Atrasos na alfândega são reprogramados e comunicados ao cliente com novo prazo em contrato.</p>
+              </div>
+            </div>
+
+            <div class="term-item">
+              <i class="bi bi-4-circle-fill"></i>
+              <div>
+                <h5>Entrega para todo o Brasil</h5>
+                <p>Envio por Correios, SEDEX ou transportadora, com código de rastreio. Capitais recebem entregas expressas. Frete calculado no checkout, sem custo oculto.</p>
+              </div>
+            </div>
+
+            <div class="term-item">
+              <i class="bi bi-5-circle-fill"></i>
+              <div>
+                <h5>Cancelamento e arrependimento</h5>
+                <p>Cancelamento gratuito até a confirmação da compra na origem. Após a compra, aplica-se o direito de arrependimento previsto no Código de Defesa do Consumidor para compras realizadas fora do estabelecimento, com devolução integral do valor pago.</p>
+              </div>
+            </div>
+
+            <div class="term-item">
+              <i class="bi bi-6-circle-fill"></i>
+              <div>
+                <h5>Garantia e assistência</h5>
+                <p>12 meses de garantia da loja sobre o produto e a operação de importação, além da garantia oficial do fabricante. Danificação por queda, contato com líquidos ou violação de lacre não é coberta.</p>
+              </div>
+            </div>
+
+            <div class="term-item">
+              <i class="bi bi-7-circle-fill"></i>
+              <div>
+                <h5>Dados e privacidade (LGPD)</h5>
+                <p>Coletamos apenas os dados necessários à cotação, ao contrato e à entrega. Não vendemos ou compartilhamos dados com terceiros, conforme a Lei Geral de Proteção de Dados.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-5">
+          <div class="contract-side reveal" data-delay="1">
+            <div class="contract-side-inner">
+              <span class="tag tag-gold">Resumo do pedido</span>
+              <h3>Exemplo de contrato</h3>
+
+              <div class="summary-row">
+                <span>Aparelho</span>
+                <strong>iPhone 15 Pro Max 256GB</strong>
+              </div>
+              <div class="summary-row">
+                <span>Valor do produto</span>
+                <strong>R$ 9.490,00</strong>
+              </div>
+              <div class="summary-row">
+                <span>Upgrade (usado iPhone 13)</span>
+                <strong class="text-gold">− R$ 2.400,00</strong>
+              </div>
+              <div class="summary-row">
+                <span>Frete (CEP 01310-100)</span>
+                <strong>R$ 0,00</strong>
+              </div>
+              <div class="summary-row summary-total">
+                <span>Total do contrato</span>
+                <strong>R$ 7.090,00</strong>
+              </div>
+
+              <div class="summary-parcel">
+                <i class="bi bi-credit-card"></i>
+                <div>
+                  <span>Parcelamento</span>
+                  <strong>12x de R$ 655,00</strong>
+                </div>
+              </div>
+
+              <ul class="summary-list">
+                <li><i class="bi bi-check2"></i> Contrato digital assinado</li>
+                <li><i class="bi bi-check2"></i> Nota fiscal eletrônica</li>
+                <li><i class="bi bi-check2"></i> 12 meses de garantia</li>
+                <li><i class="bi bi-check2"></i> Rastreio para todo o Brasil</li>
+              </ul>
+
+              <a class="btn btn-gold w-100" href="#contato" data-prefill="Quero meu contrato digital">
+                <i class="bi bi-file-earmark-arrow-down"></i> Solicitar contrato
+              </a>
+              <p class="summary-note">
+                Valores ilustrativos. O contrato real é emitido após a avaliação do seu pedido e do
+                aparelho usado, quando houver upgrade.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+  </section>
 
-  </footer>
+  <section class="section section-alt avaliacoes" id="avaliacoes">
+    <div class="container">
+      <div class="section-head text-center">
+        <span class="section-label reveal"><i class="bi bi-chat-quote"></i> Avaliações</span>
+        <h2 class="section-title reveal" data-delay="1">Quem comprou com a gente</h2>
+        <p class="section-text mx-auto reveal" data-delay="2">
+          Mais de 5 mil aparelhos entregues pelo Brasil. Estas são avaliações reais de clientes que
+          compraram por encomenda e receberam em casa.
+        </p>
+      </div>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+      <div id="testimonialCarousel" class="carousel slide testimonial-carousel reveal" data-delay="3" data-bs-ride="carousel" data-bs-interval="6000">
+        <div class="carousel-inner">
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
+          <div class="carousel-item active">
+            <div class="row g-4 align-items-center">
+              <div class="col-lg-5">
+                <div class="review-visual">
+                  <div class="review-visual-inner">
+                    <i class="bi bi-apple"></i>
+                    <span>iPhone 15 Pro Max</span>
+                    <small>Encomenda • São Paulo, SP</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-7">
+                <blockquote class="review-card">
+                  <div class="review-stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>“Fiz o upgrade do meu iPhone 12 com o 15 Pro Max. O laudo veio em dois dias, o valor do usado foi exatamente o que falaram, e o aparelho chegou lacrado em 12 dias. Contrato claro do início ao fim.”</p>
+                  <footer>
+                    <span class="review-name">Rafael Moreira</span>
+                    <span class="review-role">Cliente desde 2021 • 3 pedidos</span>
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+          </div>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+          <div class="carousel-item">
+            <div class="row g-4 align-items-center">
+              <div class="col-lg-5">
+                <div class="review-visual">
+                  <div class="review-visual-inner review-visual-xiaomi">
+                    <i class="bi bi-phone"></i>
+                    <span>Xiaomi 14 Ultra</span>
+                    <small>Encomenda • Manaus, AM</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-7">
+                <blockquote class="review-card">
+                  <div class="review-stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>“Moro no norte e sempre tive medo de comprar importado. A MJStore acompanhou tudo por WhatsApp, enviou o código de rastreio e o Xiaomi chegou original, com nota. Melhor preço que achei em toda a região.”</p>
+                  <footer>
+                    <span class="review-name">Juliana Alcântara</span>
+                    <span class="review-role">Cliente desde 2023 • 1 pedido</span>
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+          </div>
 
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+          <div class="carousel-item">
+            <div class="row g-4 align-items-center">
+              <div class="col-lg-5">
+                <div class="review-visual">
+                  <div class="review-visual-inner">
+                    <i class="bi bi-laptop"></i>
+                    <span>MacBook Air M3</span>
+                    <small>Encomenda • Curitiba, PR</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-7">
+                <blockquote class="review-card">
+                  <div class="review-stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>“Comprei o MacBook Air para a minha empresa. Atendimento nota 10, contrato assinado digital e a entrega foi antes do prazo. A configuração do e-mail e da nota fiscal foi feita por videochamada.”</p>
+                  <footer>
+                    <span class="review-name">Diego Barbosa</span>
+                    <span class="review-role">Cliente desde 2022 • 2 pedidos</span>
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+          </div>
 
+          <div class="carousel-item">
+            <div class="row g-4 align-items-center">
+              <div class="col-lg-5">
+                <div class="review-visual">
+                  <div class="review-visual-inner">
+                    <i class="bi bi-tablet-landscape"></i>
+                    <span>iPad Pro M4</span>
+                    <small>Encomenda • Recife, PE</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-7">
+                <blockquote class="review-card">
+                  <div class="review-stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                  </div>
+                  <p>“Usei o suporte de upgrade para trocar meu iPad antigo. Fizeram a avaliação por vídeo, enviaram a embalagem com seguro e o iPad Pro chegou em 18 dias. Recomendo demais para quem quer qualidade.”</p>
+                  <footer>
+                    <span class="review-name">Carla Nunes</span>
+                    <span class="review-role">Cliente desde 2024 • 1 pedido</span>
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="carousel-controls">
+          <button class="carousel-btn" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev" aria-label="Avaliação anterior">
+            <i class="bi bi-arrow-left"></i>
+          </button>
+          <div class="carousel-indicators position-static m-0">
+            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-label="Avaliação 1"></button>
+            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Avaliação 2"></button>
+            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Avaliação 3"></button>
+            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="3" aria-label="Avaliação 4"></button>
+          </div>
+          <button class="carousel-btn" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next" aria-label="Próxima avaliação">
+            <i class="bi bi-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="reviews-summary reveal">
+        <div class="summary-score">
+          <span class="score-num">4.9</span>
+          <div>
+            <div class="review-stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <small>Média de 328 avaliações verificadas</small>
+          </div>
+        </div>
+        <div class="score-bars">
+          <div class="score-bar"><span>5</span><div class="bar"><div class="bar-fill bar-w-92"></div></div><em>92%</em></div>
+          <div class="score-bar"><span>4</span><div class="bar"><div class="bar-fill bar-w-6"></div></div><em>6%</em></div>
+          <div class="score-bar"><span>3</span><div class="bar"><div class="bar-fill bar-w-2"></div></div><em>2%</em></div>
+          <div class="score-bar"><span>2</span><div class="bar"><div class="bar-fill bar-w-0"></div></div><em>0%</em></div>
+          <div class="score-bar"><span>1</span><div class="bar"><div class="bar-fill bar-w-0"></div></div><em>0%</em></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section entrega" id="entrega">
+    <div class="container">
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-6">
+          <span class="section-label reveal"><i class="bi bi-globe-americas"></i> Encomendas e entrega</span>
+          <h2 class="section-title reveal" data-delay="1">Encomendamos para todo o Brasil</h2>
+          <p class="section-text reveal" data-delay="2">
+            Você informa o modelo desejado, a cor e a quantidade. Nós compramos na origem,
+            desembaraçamos, emitimos nota fiscal e despachamos com rastreio para qualquer estado
+            brasileiro — do Norte ao Sul, com frete calculado e prazo informado antes do pagamento.
+          </p>
+
+          <div class="delivery-modes">
+            <div class="delivery-mode reveal" data-delay="1">
+              <i class="bi bi-box"></i>
+              <div>
+                <strong>Correios PAC / SEDEX</strong>
+                <small>Melhor custo para todo o território</small>
+              </div>
+            </div>
+            <div class="delivery-mode reveal" data-delay="2">
+              <i class="bi bi-truck"></i>
+              <div>
+                <strong>Transportadora</strong>
+                <small>Entrega rápida em capitais e região Sudeste</small>
+              </div>
+            </div>
+            <div class="delivery-mode reveal" data-delay="3">
+              <i class="bi bi-bicycle"></i>
+              <div>
+                <strong>Retirada em unidade</strong>
+                <small>Para clientes de São Paulo capital e região</small>
+              </div>
+            </div>
+            <div class="delivery-mode reveal" data-delay="4">
+              <i class="bi bi-lock"></i>
+              <div>
+                <strong>Envio com seguro</strong>
+                <small>Cobertura extra para aparelhos de alto valor</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="delivery-steps">
+            <div class="delivery-step"><span>1</span> Cotação</div>
+            <div class="delivery-step"><span>2</span> Aprovação</div>
+            <div class="delivery-step"><span>3</span> Compra na origem</div>
+            <div class="delivery-step"><span>4</span> Importação</div>
+            <div class="delivery-step"><span>5</span> Entrega com rastreio</div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="delivery-map reveal" data-delay="1">
+            <div class="map-grid" aria-hidden="true"></div>
+            <div class="map-pin map-pin-hub">
+              <i class="bi bi-geo-alt-fill"></i>
+              <span>Hub MJStore</span>
+            </div>
+            <div class="map-pin map-pin-1"><i class="bi bi-circle-fill"></i><span>SP</span></div>
+            <div class="map-pin map-pin-2"><i class="bi bi-circle-fill"></i><span>RJ</span></div>
+            <div class="map-pin map-pin-3"><i class="bi bi-circle-fill"></i><span>MG</span></div>
+            <div class="map-pin map-pin-4"><i class="bi bi-circle-fill"></i><span>PR</span></div>
+            <div class="map-pin map-pin-5"><i class="bi bi-circle-fill"></i><span>BA</span></div>
+            <div class="map-pin map-pin-6"><i class="bi bi-circle-fill"></i><span>PE</span></div>
+            <div class="map-pin map-pin-7"><i class="bi bi-circle-fill"></i><span>AM</span></div>
+            <div class="map-pin map-pin-8"><i class="bi bi-circle-fill"></i><span>RS</span></div>
+            <div class="map-pin map-pin-9"><i class="bi bi-circle-fill"></i><span>SC</span></div>
+            <div class="map-caption">
+              <i class="bi bi-broadcast"></i>
+              Entregas rastreadas para as 27 capitais e mais de 5.000 municípios.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt contato" id="contato">
+    <div class="container">
+      <div class="section-head text-center">
+        <span class="section-label reveal"><i class="bi bi-headset"></i> Contato</span>
+        <h2 class="section-title reveal" data-delay="1">Vamos montar sua encomenda</h2>
+        <p class="section-text mx-auto reveal" data-delay="2">
+          Preencha o formulário ou chame no WhatsApp. Um consultor responde em até 24 horas com
+          cotação, prazo de entrega e contrato digital.
+        </p>
+      </div>
+
+      <div class="row g-4 align-items-start">
+        <div class="col-lg-5">
+          <div class="contact-info reveal">
+            <div class="contact-card">
+              <div class="contact-item">
+                <i class="bi bi-whatsapp"></i>
+                <div>
+                  <strong>WhatsApp</strong>
+                  <a href="https://wa.me/5500000000000" target="_blank" rel="noopener">(00) 00000-0000</a>
+                  <small>Resposta em até 2h no horário comercial</small>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="bi bi-envelope"></i>
+                <div>
+                  <strong>E-mail</strong>
+                  <a href="mailto:contato@mjstoreimports.com.br">contato@mjstoreimports.com.br</a>
+                  <small>Propostas, NF e suporte</small>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="bi bi-telephone"></i>
+                <div>
+                  <strong>Telefone</strong>
+                  <a href="tel:+551100000000">(00)&nbsp;0000&#8209;0000</a>
+                  <small>Seg. a Sex. 9h às 19h</small>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="bi bi-geo-alt"></i>
+                <div>
+                  <strong>Unidade física</strong>
+                  <span>Rua Exemplo, 000 — São Paulo, SP</span>
+                  <small>Retirada com appointment</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-social">
+              <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+              <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="contact-form-wrap reveal" data-delay="1">
+            <form id="contactForm" class="contact-form" novalidate>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label" for="name">Nome completo</label>
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Seu nome" required>
+                  <div class="invalid-feedback">Informe seu nome.</div>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="phone">WhatsApp</label>
+                  <input type="tel" class="form-control" id="phone" name="phone" placeholder="(00) 00000-0000" required>
+                  <div class="invalid-feedback">Informe um telefone válido.</div>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="email">E-mail</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="voce@email.com" required>
+                  <div class="invalid-feedback">Informe um e-mail válido.</div>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="zip">CEP de entrega</label>
+                  <input type="text" class="form-control" id="zip" name="zip" placeholder="00000-000" inputmode="numeric">
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="category">Linha de interesse</label>
+                  <select class="form-select" id="category" name="category">
+                    <option value="iPhone">iPhone</option>
+                    <option value="iPad">iPad</option>
+                    <option value="MacBook">MacBook</option>
+                    <option value="Apple Watch / Acessórios">Apple Watch / Acessórios</option>
+                    <option value="Xiaomi">Xiaomi</option>
+                    <option value="Upgrade de aparelho">Upgrade de aparelho</option>
+                    <option value="Outro">Outro</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="model">Aparelho desejado</label>
+                  <input type="text" class="form-control" id="model" name="model" placeholder="Ex.: iPhone 15 Pro Max 256GB">
+                </div>
+                <div class="col-12">
+                  <label class="form-label" for="message">Mensagem</label>
+                  <textarea class="form-control" id="message" name="message" rows="4" placeholder="Conte o que você precisa, prazo desejado e forma de pagamento."></textarea>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="consent" name="consent" required>
+                    <label class="form-check-label" for="consent">
+                      Autorizo o contato da MJStore Imports e concordo com a Política de Privacidade (LGPD).
+                    </label>
+                    <div class="invalid-feedback">É necessário aceitar para continuar.</div>
+                  </div>
+                </div>
+                <div class="col-12 d-grid d-sm-block">
+                  <button class="btn btn-gold btn-lg" type="submit" id="submitBtn">
+                    <i class="bi bi-send"></i> Solicitar cotação
+                  </button>
+                </div>
+                <div class="col-12">
+                  <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="container">
+      <div class="cta-inner reveal">
+        <div>
+          <h2>Pronto para atualizar seu aparelho?</h2>
+          <p>Fale com um consultor da MJStore Imports e receba sua cotação personalizada hoje mesmo.</p>
+        </div>
+        <div class="cta-actions">
+          <a class="btn btn-gold btn-lg" href="#contato"><i class="bi bi-bag-check"></i> Encomendar agora</a>
+          <a class="btn btn-outline-gold btn-lg" href="https://wa.me/5500000000000" target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i> Chamar no WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <a class="navbar-brand d-flex align-items-center gap-2 mb-3" href="#top">
+          <span class="brand-mark">MJ</span>
+          <span class="brand-text">
+            <span class="brand-name">MJStore</span>
+            <span class="brand-sub">Imports</span>
+          </span>
+        </a>
+        <p class="footer-text">
+          Especialistas em aparelhos importados originais: iPhone, iPad, MacBook, Apple Watch e
+          Xiaomi. Compra direta na origem, contrato digital, nota fiscal e entrega para todo o Brasil.
+        </p>
+        <div class="contact-social">
+          <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+          <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+        </div>
+      </div>
+
+      <div class="col-6 col-lg-2">
+        <h5 class="footer-title">Navegação</h5>
+        <ul class="footer-links">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#upgrade">Upgrade</a></li>
+          <li><a href="#contrato">Contrato</a></li>
+          <li><a href="#avaliacoes">Avaliações</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-lg-3">
+        <h5 class="footer-title">Categorias</h5>
+        <ul class="footer-links">
+          <li><a href="#produtos">iPhone</a></li>
+          <li><a href="#produtos">iPad</a></li>
+          <li><a href="#produtos">MacBook</a></li>
+          <li><a href="#produtos">Apple Watch</a></li>
+          <li><a href="#produtos">Xiaomi</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3">
+        <h5 class="footer-title">Contato</h5>
+        <ul class="footer-links footer-contact">
+          <li><i class="bi bi-whatsapp"></i> <a href="https://wa.me/5500000000000" target="_blank" rel="noopener">(00) 00000-0000</a></li>
+          <li><i class="bi bi-envelope"></i> <a href="mailto:contato@mjstoreimports.com.br">contato@mjstoreimports.com.br</a></li>
+          <li><i class="bi bi-geo-alt"></i> São Paulo, SP — Brasil</li>
+          <li><i class="bi bi-clock"></i> Seg. a Sex. 9h–19h</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> MJStore Imports. Todos os direitos reservados. Apple, iPhone, iPad, MacBook e Apple Watch são marcas da Apple Inc. Xiaomi é marca da Xiaomi Corp.</p>
+      <div class="footer-bottom-links">
+        <a href="#contrato">Política de privacidade</a>
+        <a href="#contrato">Termos de uso</a>
+        <a href="#contrato">Trocas e devoluções</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="fab-stack">
+  <a class="fab fab-wa" href="https://wa.me/5500000000000" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+    <i class="bi bi-whatsapp"></i>
+  </a>
+  <button class="fab fab-top" id="backToTop" type="button" aria-label="Voltar ao topo">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+</div>
+
+<div class="modal fade" id="quoteModal" tabindex="-1" aria-labelledby="quoteModalLabel">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="quoteModalLabel">Orçamento rápido</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+      <div class="modal-body">
+        <p class="text-secondary-gray">Informe o aparelho e sua região. Respondemos com preço final, frete e prazo em até 24h.</p>
+        <form id="quoteForm" novalidate>
+          <div class="mb-3">
+            <label class="form-label" for="qModel">Aparelho</label>
+            <input type="text" class="form-control" id="qModel" placeholder="Ex.: iPhone 15 Pro Max 256GB" required>
+          </div>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label" for="qZip">CEP</label>
+              <input type="text" class="form-control" id="qZip" placeholder="00000-000" inputmode="numeric">
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="qQty">Quantidade</label>
+              <input type="number" class="form-control" id="qQty" min="1" value="1">
+            </div>
+          </div>
+          <button class="btn btn-gold w-100 mt-4" type="submit">
+            <i class="bi bi-calculator"></i> Calcular orçamento
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="app.js"></script>
 </body>
-
 </html>
